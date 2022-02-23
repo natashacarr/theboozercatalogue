@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/theboozercatalogue/static/css/main.ba4961c2.css",
+    "main.js": "/theboozercatalogue/static/js/main.eb294e67.js",
+    "static/js/787.9a707e4a.chunk.js": "/theboozercatalogue/static/js/787.9a707e4a.chunk.js",
+    "static/media/homemade_cat.jpg": "/theboozercatalogue/static/media/homemade_cat.3bca1da07746cdf928b4.jpg",
+    "static/media/header_bg.jpg": "/theboozercatalogue/static/media/header_bg.6678b328b5414c538af9.jpg",
+    "static/media/beer_cat.jpg": "/theboozercatalogue/static/media/beer_cat.ec7b65bd9a931fa9ef68.jpg",
+    "static/media/shots_cat.jpg": "/theboozercatalogue/static/media/shots_cat.a017ad2d180d47235678.jpg",
+    "static/media/party_cat.jpg": "/theboozercatalogue/static/media/party_cat.ad0df6d6b862664de94e.jpg",
+    "static/media/prem_cat.jpg": "/theboozercatalogue/static/media/prem_cat.71f6e01a4bd1bd2b2b2b.jpg",
+    "static/media/cocktails_cat.jpg": "/theboozercatalogue/static/media/cocktails_cat.a1ae690a36ab6f5f14c2.jpg",
+    "static/media/logo-v2.png": "/theboozercatalogue/static/media/logo-v2.261e85b84fd23293290a.png",
+    "index.html": "/theboozercatalogue/index.html",
+    "main.ba4961c2.css.map": "/theboozercatalogue/static/css/main.ba4961c2.css.map",
+    "main.eb294e67.js.map": "/theboozercatalogue/static/js/main.eb294e67.js.map",
+    "787.9a707e4a.chunk.js.map": "/theboozercatalogue/static/js/787.9a707e4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba4961c2.css",
+    "static/js/main.eb294e67.js"
+  ]
+}
