@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Header from "./Features/Header/Header";
+import CategoriesMenu from "./Features/Categories/CategoriesMenu";
+import CategoryDetail from "./Features/CategoryDetail/CategoryDetail";
+import DealersChoice from "./Features/DealersChoice/DealersChoice";
+import SearchResults from "./Features/SearchResults/SearchResults";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+      <div className="App">
+        <Header className="header" />
+        <Switch>
+          <Route path="/" exact component={CategoriesMenu} />
+          <Route path="/categories" exact component={CategoriesMenu} />
+          <Route path="/categories/:category" component={CategoryDetail} />
+          <Route path="/dealers-choice" component={DealersChoice} />
+          <Route path="/:search" component={SearchResults} />
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 

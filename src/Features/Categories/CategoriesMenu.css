@@ -1,0 +1,257 @@
+.categories-menu {
+  display: grid;
+  grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;
+  height: 70vh;
+  padding: 2% 3% 2% 3%;
+}
+
+.cocktails,
+.prem-cocktails,
+.party,
+.shots,
+.homemade-liqueur,
+.beer {
+  border: 1px solid #222222;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+.cocktails {
+  grid-column: 1 / 2;
+  background-image: url("../../images/cocktails_cat.jpg");
+}
+
+.prem-cocktails {
+  grid-column: 2 / 3;
+  background-image: url("../../images/prem_cat.jpg");
+}
+
+.party {
+  grid-column: 3 / 4;
+  background-image: url("../../images/party_cat.jpg");
+}
+
+.shots {
+  grid-column: 4 / 5;
+  background-image: url("../../images/shots_cat.jpg");
+}
+
+.homemade-liqueur {
+  grid-column: 5 / 6;
+  background-image: url("../../images/homemade_cat.jpg");
+}
+
+.beer {
+  grid-column: 6 / 7;
+  background-image: url("../../images/beer_cat.jpg");
+}
+
+.link {
+  width: 100%;
+  height: 15%;
+}
+
+.cocktails-btn,
+.prem-cocktails-btn,
+.party-btn,
+.shots-btn,
+.homemade-liqueur-btn,
+.beer-btn {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0px;
+}
+
+.cocktails-btn:hover {
+  color: #ff00e1;
+  cursor: pointer;
+}
+
+.prem-cocktails-btn:hover {
+  color: #00ffe1;
+  cursor: pointer;
+}
+
+.party-btn:hover {
+  color: #ff6161;
+  cursor: pointer;
+}
+
+.shots-btn:hover {
+  color: #7bff00;
+  cursor: pointer;
+}
+
+.homemade-liqueur-btn:hover {
+  color: #ff7b00;
+  cursor: pointer;
+}
+
+.beer-btn:hover {
+  color: #ffdd00;
+  cursor: pointer;
+}
+
+/* desktop */
+
+@media only screen and (min-width: 1600px) {
+  .cocktails-btn,
+  .prem-cocktails-btn,
+  .party-btn,
+  .shots-btn,
+  .homemade-liqueur-btn,
+  .beer-btn {
+    font-size: 1.5em;
+  }
+}
+
+/* tablet landscape */
+
+@media only screen and (max-width: 1024px) {
+  .cocktails-btn,
+  .prem-cocktails-btn,
+  .party-btn,
+  .shots-btn,
+  .homemade-liqueur-btn,
+  .beer-btn {
+    font-size: 1.1em;
+  }
+}
+
+/* tablet portrait */
+
+@media only screen and (max-width: 769px) {
+  .categories-menu {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    height: 83vh;
+    row-gap: 2px;
+  }
+
+  .cocktails {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+  }
+
+  .prem-cocktails {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+  }
+
+  .party {
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+  }
+
+  .shots {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+  }
+
+  .homemade-liqueur {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+  }
+
+  .beer {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+  }
+
+  .cocktails-btn,
+  .prem-cocktails-btn,
+  .party-btn,
+  .shots-btn,
+  .homemade-liqueur-btn,
+  .beer-btn {
+    font-size: 1.3em;
+  }
+
+  .link {
+    height: 20%;
+  }
+}
+
+/* mobile */
+
+@media screen and (max-width: 668px) {
+  .cocktails-btn,
+  .prem-cocktails-btn,
+  .party-btn,
+  .shots-btn,
+  .homemade-liqueur-btn,
+  .beer-btn {
+    font-size: 0.9em;
+  }
+
+  .link {
+    height: 25%;
+  }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 480px) {
+  .categories-menu {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    height: 80vh;
+    padding-top: 13%;
+    row-gap: 1px;
+  }
+
+  .cocktails {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+  }
+
+  .prem-cocktails {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+  }
+
+  .party {
+    grid-column: 3 / 3;
+    grid-row: 1 / 1;
+  }
+
+  .shots {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+  }
+
+  .homemade-liqueur {
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+  }
+
+  .beer {
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+  }
+
+  .cocktails-btn,
+  .prem-cocktails-btn,
+  .party-btn,
+  .shots-btn,
+  .homemade-liqueur-btn,
+  .beer-btn {
+    font-size: 0.6em;
+  }
+
+  .link {
+    height: 18%;
+  }
+}
